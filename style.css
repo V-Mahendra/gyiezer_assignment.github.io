@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    font-family: "Montserrat";
+    scroll-behavior: smooth;
+    list-style: none;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 850px;
+    overflow: hidden;
+    background: #010317;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.icons img {
+    margin-left: 1rem;
+    width: 1.5rem;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+
+}
+
+.navbar li {
+    width: 27%;
+    height: 3rem;
+    background: #1c1d28;
+    border-radius: 4px;
+    padding: .5rem 1rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+
+}
+
+.navbar li img {
+    background: #1c1d28;
+    width: 2rem;
+    margin-right: .5rem;
+}
+
+.navbar li:hover {
+    background: linear-gradient(72.44deg, #A22DE7 -19.7%, #F84592 41.79%, #E29C74 93.81%);
+}
+
+
+
+.hero-card {
+    position: relative;
+    margin: 2rem auto;
+    width: 90%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    border-radius: 1rem;
+    justify-content: center;
+    background: linear-gradient(72.44deg, #A22DE7 -19.7%, #F84592 41.79%, #E29C74 93.81%);
+
+}
+
+.hero-card h2,
+.hero-card p {
+    margin: 0 10%;
+}
+
+.hero-card h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.hero-card button {
+    position: absolute;
+    right: 10%;
+    bottom: 15%;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+    border: none;
+    background: #FA8DA5;
+}
+
+
+/* ---------------------- jOURNEYS sECTION ------------------ */
+
+section {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.journeys {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.journeys h2 {
+    font-weight: 700;
+    margin: 2rem 0;
+}
+
+.j-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.j-container .box {
+    width: 44%;
+    min-height: 16rem;
+    padding: 2rem;
+    margin: 3%;
+    background-color: #1c1d28;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 1rem;
+
+}
+
+.box span {
+    padding: 3px 7px;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.box p {
+    text-align: start;
+}
+
+.box1,
+.box1 :nth-child(2) {
+    border: 1px solid #15C7BC;
+    background: #15C7BC;
+    box-shadow: 0 0 2rem #08b0a451;
+
+}
+
+.box2,
+.box2 :nth-child(2) {
+    border: 1px solid #AD00FF;
+    background: #AD00FF;
+    box-shadow: 0 0 2rem #8c08c965
+}
+
+.box3,
+.box3 :nth-child(2) {
+    border: 1px solid #CD4B88;
+    background: #CD4B88;
+    box-shadow: 0 0 2rem #cd4b885f
+}
+
+.box4,
+.box4 :nth-child(2) {
+    border: 1px solid #2D42FF;
+    background: #2D42FF;
+    box-shadow: 0 0 2rem #0d1db276;
+
+}
+
+
+/* ---------------- New Journey Section ----------------------- */
+
+
+.new-journey {
+    margin: 1rem auto;
+}
+
+.new-journey h2 {
+    margin: 2rem 0;
+    font-weight: 600;
+}
+
+.new-journey li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    letter-spacing: .5px;
+}
+
+.new-journey .hr {
+
+    border: 1px solid #292b3a;
+}
+
+.new-journey li span {
+    padding: 3px 7px;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+ 
+.tab1{
+    background-color: #15C7BC;
+}
+.tab2{
+    background-color: #2D42FF;
+}
+.tab3{
+    background-color: #CD4B88;
+}
+.tab4{
+    background-color: #AD00FF;
+}
+
+
+/* ------------------footer  menu -------------- */
+.menu {
+    width: 100%;
+    border-radius: 2rem 2rem 0 0;
+    display: flex;
+    height: 14vh;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #040726;
+
+}
+
+.menu a {
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: .9rem;
+    color: #7195D9;
+
+}
+
+.menu a i {
+    margin-bottom: .3rem;
+    font-size: 1.5rem;
+    color: #7195D9;
+}
+
+.menu i:hover {
+    color: white;
+}
+
+.menu a:hover {
+    color: #A22DE7;
+
+}
+
+.menu li {
+    background: linear-gradient(158.84deg, #AD00FF 11.74%, #5475E8 76.37%, #06E7F5 135.84%);
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* media screen ---------------------------  */
+
+@media (max-width:768px) {
+
+    html {
+        font-size: 80%;
+    }
+
+    .menu {
+        height: 10vh;
+        font-size: larger;
+
+    }
+}
